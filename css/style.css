@@ -1,0 +1,40 @@
+body {
+font-family: Arial, sans-serif;
+text-align: center;
+background-image: linear-gradient(to left, rgb(2, 60, 2),rgb(104, 129, 101),rgb(2, 60, 2));
+padding: 20px;
+}
+
+
+.lista-Dinero img {
+width: 80px;
+margin: 10px;
+cursor: pointer;
+transition: transform 0.2s;
+}
+
+
+.lista-Dinero img:hover {
+transform: scale(1.1);
+}
+
+
+#historial {
+list-style: none;
+padding: 0;
+}
+
+
+#historial li {
+background: #fff;
+margin: 5px auto;
+padding: 10px;
+width: 60%;
+border-radius: 5px;
+box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+h1 i {
+    font-size: 40px;
+    margin-right: 10px;
+    color: #ff6f00;
+}
